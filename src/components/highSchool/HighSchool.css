@@ -1,0 +1,46 @@
+.highSchool {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.highSchoolTop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.highSchoolTitle {
+    justify-self: flex-start;
+    margin-top: 0;
+}
+.schoolTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.back {
+    background: none;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    justify-self: flex-end;
+    color: rgb(17, 190, 190);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.backIco {
+    fill: rgb(17, 190, 190) !important;
+}
+.highSchoolBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+.schoolInfo {
+    color: lightgrey;
+    margin-top: 20px;
+}

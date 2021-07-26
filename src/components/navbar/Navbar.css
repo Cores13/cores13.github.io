@@ -1,16 +1,6 @@
-/* .mdl-layout__drawer {
-    background-color: #2e2e2e !important;
-    border: none !important;
+.navbar {
+  z-index: 9999;
 }
-.mdl-layout__drawer .is-visible{
-    color: white !important;
-}
-.mdl-layout__drawer > .mdl-navigation >.mdl-navigation__link:hover {
-    background: #333333 !important;
-}
-.mdl-layout__drawer > .mdl-navigation > .mdl-navigation__link {
-    color: #b6b6b6 !important;
-} */
 :root {
     font-size: 16px;
     font-family: 'Open Sans';

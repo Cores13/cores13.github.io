@@ -1,25 +1,143 @@
 .bg-color {
     overflow-y: scroll;
 }
-.wrapper {
+.resumeWrapper {
     display: flex;
     padding-top: 7rem;
     flex-direction: column;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
+    margin-bottom: 100px;
 }
 .resume {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    min-height: 805px; 
     height: 100%;
     width: 100%;
     border-radius: 15px;
     margin: 0 auto;
     border: 1px solid rgb(63, 63, 63);
-    padding: 5px;
+    padding: 25px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     background: rgba(40,44,52, 1);
     background: -webkit-linear-gradient(0deg,  #1a1a22 0%,  rgba(40,44,52, 1)50%);
     background: linear-gradient(0deg,  #1a1a22 0%, rgba(40,44,52, 1)50%); 
     -webkit-box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0); 
     box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0);
+    justify-content: flex-start;
+}
+.resumeLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    min-width: 285px;
+    border-radius: 10px;
+    background: rgba(40,44,52, 1);
+    background: -webkit-linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.8)50%,  rgba(13, 131, 131, 0.2)100%);
+    background-image: linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.7)50%,rgba(40,44,52, 0.8)80%, rgba(17, 190, 190, 0.1)100%), url('../../images/resumeBg.webp'); 
+    background-size:cover;
+    background-position: center top;
+}
+.resumeTitle {
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px #F10D73;
+}
+.resumeInfoName {
+    align-self: left;
+}
+.resumeInfo {
+    font-size: 1rem !important;
+    margin-bottom: 25px;
+    height: 24px;
+}
+.resumeInfoDownload {
+    font-size: 1.3rem !important;
+    margin-bottom: 25px;
+    height: 24px;
+}
+.fas, .far, .fab {
+    color: rgb(17, 190, 190);
+}
+.resumeRight {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 100%;
+}
+.resumeTab {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1030px) {
+    .resumeWrapper {
+        width: 80%;
+        background-size: cover;
+        background-position: left;
+    }
+    .resume {
+        min-height: 1141px; 
+    }
+    .resumeLeft {
+        min-width: 250px;
+    }
+    .resumeRight {
+        margin-left: 0;
+        padding-left: 20px;
+        width: 95%;
+    }
+}
+@media (max-width: 770px){
+    .resume {
+        flex-direction: column;
+        padding: 0;
+        background-image: linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.95)50%,rgba(19, 21, 24, 0.79)80%, rgba(19, 21, 24, 0.9)100%), url('../../images/resumeBg.webp'); 
+        background-size:cover;
+        background-position: center top;
+    }
+    .resumeLeft {
+        background: none;
+    }
+    .resumeWrapper {
+        margin-right: 40px;
+    }
+    .resumeInfo, .resumeInfoName {
+        padding-left: 25px;
+    }
+    .resumeTitle {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 430px){
+    .resumeWrapper {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        padding-top: 50px;
+    }
+    .MuiTimeline-root {
+        padding:0 !important;
+    }
+    .resumeRight {
+        width: 90%;
+    }
+}
+@media (max-width: 380px){
+    .resumeInfo, .resumeInfoName {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 325px){
+   
 }

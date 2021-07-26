@@ -1,0 +1,28 @@
+.MuiTypography-body2 {
+    color: white !important;
+    padding-top: 10px;
+}
+.MuiTimelineItem-content {
+    cursor: pointer;
+}
+.MuiPaper-root {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+.MuiTypography-h6 {
+    color:rgb(17, 190, 190);
+}
+.MuiTypography-body1 {
+    text-align: left !important;
+}
+.MuiTypography-h6 {
+    text-align: center !important;
+}
+.MuiTimelineConnector-root {
+    background: #bdbdbd !important;
+}
+.MuiTimelineDot-defaultSecondary {
+    background: rgb(17, 190, 190) !important;
+}
+.MuiTimelineDot-root {
+    border-color:rgb(17, 190, 190) !important;
+}
