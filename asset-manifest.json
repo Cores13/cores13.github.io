@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d087571a.chunk.css",
+    "main.css": "/static/css/main.e332a253.chunk.css",
     "main.js": "/static/js/main.86a8cef5.chunk.js",
     "main.js.map": "/static/js/main.86a8cef5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9200474f.js",
@@ -12,9 +12,9 @@
     "static/js/3.14b4e8fd.chunk.js.map": "/static/js/3.14b4e8fd.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.bef85499.chunk.css.map": "/static/css/2.bef85499.chunk.css.map",
-    "static/css/main.d087571a.chunk.css.map": "/static/css/main.d087571a.chunk.css.map",
+    "static/css/main.e332a253.chunk.css.map": "/static/css/main.e332a253.chunk.css.map",
     "static/js/2.e1921f6e.chunk.js.LICENSE.txt": "/static/js/2.e1921f6e.chunk.js.LICENSE.txt",
-    "static/media/Landing.css": "/static/media/bg.2a54100e.mpeg",
+    "static/media/Landing.css": "/static/media/bg.9e894d41.gif",
     "static/media/ContactMe.css": "/static/media/contactBg.867c076d.jpg",
     "static/media/Projects.css": "/static/media/projectsBg.9120d17c.jpg",
     "static/media/AboutMe.css": "/static/media/resumeBg.586341d5.jpg"
@@ -23,7 +23,7 @@
     "static/js/runtime-main.9200474f.js",
     "static/css/2.bef85499.chunk.css",
     "static/js/2.e1921f6e.chunk.js",
-    "static/css/main.d087571a.chunk.css",
+    "static/css/main.e332a253.chunk.css",
     "static/js/main.86a8cef5.chunk.js"
   ]
 }
